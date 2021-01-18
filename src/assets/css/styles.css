@@ -14,7 +14,7 @@
 
 * {
     margin: 0px;
-    padding: opx;
+    padding: 0px;
 }
 
 body {
@@ -68,4 +68,113 @@ header a {
 header a:hover,
 .actived {
     background: rgba(0, 0, 0, 0.8);
+}
+
+/* Main container */
+
+#content {
+    min-height: 600px;
+    height: auto;
+    overflow: auto;
+    width: 75%;
+    margin: 0px auto;
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+    box-shadow: 0px 0px 40px black;
+    background: rgba(255, 255, 255, 0.7);
+    padding-top: 120px;
+}
+
+* Footer */
+
+footer {
+    width: 75%;
+    margin: 0px auto;
+    padding-top: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* home section */
+
+#title {
+    width: 70%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+#title h1 {
+    font-family: "finger";
+    font-size: 60px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+#title h3 {
+    font-size: 25px;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+article.home {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+
+.home h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.home p {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+/* Radio section */
+
+.radio ul li {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.radio img {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+
+}
+
+/* Teach section*/
+
+.teach h2 {
+    margin-left: 10px;
+}
+
+.teach p { 
+    width: 75%; 
+    height: auto; 
+    display:block;
+    padding: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: justify;
+    border: 2px solid #555;
+}
+
+.teach a {
+    text-decoration: none;
+    color: blue;
 }
